@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ======= HEADER ======= -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">DevFront<span>.</span></h1>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <!-- Botão modo escuro -->
+            <button id="toggle-theme" title="Alternar tema">🌙</button>
+        </nav>
+    </header>
+
+    <!-- ======= HERO ======= -->
+    <section class="hero reveal">
+        <div>
+            <h1 id="typing-text"></h1>
+            <p>Desenvolvedor Front-End | Criador de interfaces modernas e responsivas</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </section>
+
+    <!-- ======= SOBRE ======= -->
+    <section id="sobre" class="sobre reveal">
+        <h2>Sobre Mim</h2>
+        <img src="img/my_photo.jpg.jpeg" alt="Foto de perfil">
+        <p>Sou um desenvolvedor front-end apaixonado por criar experiências digitais únicas e funcionais. Trabalho com tecnologias modernas como <strong>HTML, CSS, JavaScript e React</strong>, transformando ideias em interfaces bonitas e intuitivas. Gosto de desafios, design limpo e código bem estruturado.</p>
+    </section>
+
+    <!-- ======= HABILIDADES ======= -->
+    <section id="habilidades" class="habilidades reveal">
+        <h2>Minhas Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript (ES6+)</div>
+            <div class="skill">React.js</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">UI/UX Design</div>
+            <div class="skill">Figma</div>
+        </div>
+    </section>
+
+    <!-- ======= PROJETOS ======= -->
+    <section id="projetos" class="projetos reveal">
+        <h2>Projetos Recentes</h2>
+        <div class="projetos-container">
+            <div class="projeto-card">
+                <img src="https://picsum.photos/400/250?random=1" alt="Projeto 1">
+                <h3>Landing Page Responsiva</h3>
+                <p>Site moderno feito com HTML, CSS e JS puro, com design mobile-first e SEO otimizado.</p>
+                <a href="#" class="btn">Ver Projeto</a>
+            </div>
+            <div class="projeto-card">
+                <img src="https://picsum.photos/400/250?random=2" alt="Projeto 2">
+                <h3>Dashboard Interativa</h3>
+                <p>Aplicação React com gráficos dinâmicos, dark mode e integração com API externa.</p>
+                <a href="#" class="btn">Ver Projeto</a>
+            </div>
+            <div class="projeto-card">
+                <img src="https://picsum.photos/400/250?random=3" alt="Projeto 3">
+                <h3>Portfólio Pessoal</h3>
+                <p>Design minimalista e código limpo. Desenvolvido para mostrar meu trabalho e estilo.</p>
+                <a href="#" class="btn">Ver Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= CONTATO ======= -->
+    <section id="contato" class="contato reveal">
+        <h2>Contato</h2>
+        <p>Gostou do meu trabalho? Vamos conversar! 👇</p>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer>
+        <p>&copy; 2025 Arnaud Roberto| Desenvolvedor Front-End 💻</p>
+    </footer>
+
+</body>
+</html>
